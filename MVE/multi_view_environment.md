@@ -71,3 +71,4 @@ $ meshclean -t10 <scene-dir>/surface-L2.ply <scene-dir>/surface-L2-clean.ply
 ![Example Result 1](mve.png)
 ![smoker_umve.png](smoker_umve.png)
 ![mve_after_clean_result_smoker.png](mve_after_clean_result_smoker.png)
+[PLY file of this result](surface-L2-clean.ply)
