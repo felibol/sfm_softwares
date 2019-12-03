@@ -71,3 +71,4 @@ $ python SfM_GlobalPipeline.py images/ SFMtestOutput/
 ## Results and Screenshots;
 ![openMVG_sfm.png](openMVG_sfm.png)
 ![openMVG_result.png](openMVG_result.png)
+[PLY file of this result](robust_colorized.ply)
