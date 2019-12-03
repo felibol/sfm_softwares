@@ -7,6 +7,10 @@ HAHOG is the name OpenSfM uses for the combination of Hessian Affine feature poi
 
 OpenSFM library is written in Python. The library serves as a processing pipeline for reconstructing camera poses and 3D scenes from multiple images. It consists of basic modules for Structure from Motion (feature detection/matching, minimal solvers) with a focus on building a robust and scalable reconstruction pipeline. It also integrates external sensor (e.g. GPS, accelerometer) measurements for geographical alignment and robustness. A JavaScript viewer is provided to preview the models and debug the pipeline.
 
+https://github.com/OpenDroneMap/ODM
+
+https://www.opendronemap.org/
+
 ### OpenSfM depends on the following libraries
 - OpenCV
 - OpenGV
