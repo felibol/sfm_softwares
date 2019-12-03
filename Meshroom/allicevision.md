@@ -5,7 +5,7 @@ This open approach enables both us and other users to achieve a high degree of i
 "Meshroom allows you to run the whole photogrammetric pipeline. Put your images and it will generate a textured mesh automatically."
 https://alicevision.org/
 
-History of the project;
+### History of the project;
 - In 2009, CMP research team from CTU started the PhD thesis of Michal Jancosek supervised by Tomas Pajdla. They released windows binaries of their MVS pipeline, called CMPMVS, in 2012. 
 - In 2009, Toulouse INP, INRIA and Duran Duboi started a French ANR project to create a model based Camera Tracking solution based on natural features and a new marker design called CCTag. 
 - In 2010, Mikros Image and IMAGINE research team (a joint research group between Ecole des Ponts ParisTech and Centre Scientifique et Technique du Batiment) started a partnership around Pierre Moulon’s thesis, supervised by Renaud Marlet and Pascal Monasse on the academic side and Benoit Maujean on the industrial side. 
@@ -15,7 +15,7 @@ History of the project;
 
 https://github.com/alicevision/meshroom
 
-My comments;
+### My comments;
 - Alicevision is an OpenMVG Fork
 - Does not produce orthophoto or mosaic
 - Has very good user interface
@@ -31,6 +31,8 @@ AliceVision is a Photogrammetric Computer Vision framework for 3D Reconstruction
 ### PopSIFT Scale-Invariant Feature Transform (SIFT)
 This library provides a GPU implementation of SIFT. 25 fps on HD images on recent graphic cards.
 
+## To Build and Run
+Just download [linux image](https://github.com/alicevision/meshroom/releases), extract and run executable(`./Meshroom`)
 ## Results and Screenshots;
 ![UI](MeshroomScreenshot.png)
 ![UI](MeshroomScreenshot2.png)
