@@ -3,6 +3,7 @@
 "The Multi-View Environment is an effort to ease the work with multi-view datasets and to support the development of algorithms based on multiple views. It features Structure from Motion, Multi-View Stereo and Surface Reconstruction. MVE is developed at the TU Darmstadt. Visit the following website for more details.
 - https://www.gcc.tu-darmstadt.de/home/proj/mve/
 - https://pdfs.semanticscholar.org/c9f8/c6ff1c1e52db988fe6b0f6d1bf144fd6be4a.pdf"
+- https://github.com/simonfuhrmann/mve
 
 ### Requirements
 - libjpeg (for MVE, http://www.ijg.org/)
@@ -34,6 +35,7 @@
 - Does not support GPU accel but SSE accel. is available. 
 - There is no orthophoto or mosaic output.
 - Very slow with respect to Meshroom and ODM.
+- Rely on exif tags for initilize focal length and try to find sensor size from their camera database.
 
 ## To Build and Run
 
