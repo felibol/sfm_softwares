@@ -29,6 +29,12 @@ https://www.opendronemap.org/
 - They support also docker image to simply run it. 
 - Multiple machines can be used for split tasks and then combine back. 
 - OpenSFM is BSD licensed.
+- Different camera models(projection type) are supported 'auto', 'perspective', 'brown', 'fisheye', 'spherical'
+- Semi Global Matching is supported
+- If an image does not have GPS information in Exif, it is matched with ALL other images. A warning is written in the logs when that happens.
+- Rely on exif tags for ocal length, without exif with focal length
+    - OpenDFM will still work. However, the output will be grossly inaccurate in the sense that proportions will match but distances will not. If no GPS data is available at all then OpenSfM will do reconstruct a point cloud but the resulting camera positions will have 0 N 0 E (or close to) or no geographic coordinates. If any image lacks the FocalLength tag then OpenSfM assumes a default focal ratio (a quotient of focal plane width and focal length) of 0.85 which is roughly the mean focal ratio for most smartphones on the market.
+- There is no loop closure in OpenSFM
 
 ## To Build and Run
 If you have Docker installed, place your JPGs in a folder named “images” (for example /my/project/images) , then simply run:
