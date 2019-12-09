@@ -23,6 +23,8 @@ https://openmvg.readthedocs.io/en/latest/
 - Have minimal dependencies like png zlib jpeg libraries
 - Has good documentation
 - Not using GPU, but it seems like some cuda implementations will be added (like cuda sift) they are working on it
+- Supports different camera models such as classic pinhole, classic pinhole with one factor radial distortion, classic pinhole with three factors radial distortion, classic pinhole with three factors radial distortion and tangential distortion by two factors, classic pinhole with fish-eye distortion by four factors
+- Calibration data should be known from exif etc. 
 
 ## To Build and Run
 
