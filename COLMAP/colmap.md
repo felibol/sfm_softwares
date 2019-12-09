@@ -24,6 +24,9 @@ COLMAP can be used as an independent application through the command-line or gra
 - Has a UI and command line options and also supports usage as a library. 
 - Does not have orthophoto generation etc. 
 - Several different feature matching algorithms are already implemented.
+- Supports different camera models such as SIMPLE_PINHOLE, SIMPLE_RADIAL, OPENCV, RADIAL_FISHEYE, OPENCV_FISHEYE, FOV, THIN_PRISM_FISHEYE
+- Calibration params should be supported via exif or manually
+- There is a built-in loop detection based on a vocabulary tree, they support also  pre-trained vocabulary tree
 
 ## To Build and Run
 
