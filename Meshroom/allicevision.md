@@ -20,6 +20,9 @@ https://github.com/alicevision/meshroom
 - Does not produce orthophoto or mosaic
 - Has very good user interface
 - Using GPU for accel. (They are using CUDA and somehow they are trying to get rid of it :) because of vendor dependent structure and broke libre software philosophy )
+- Using Semi Global Matching for Depth Map
+- Different camera models are supported 'pinhole’, ‘radial1’, ‘radial3’, ‘brown’, ‘fisheye4’
+- There is no self-calibration for images without exif data, rely on exif tag
 
 ## They have also some other softwares, tools; 
 ### ofxMVG Camera Localization OpenFX Plugin for Nuke
